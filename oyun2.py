@@ -7,7 +7,7 @@ def sayitut():
 def tahmin_al():
     while True:
         try:
-            return int(input("1 ile 100 arasında bir sayı giriniz: "))
+            return int(input("Tahminin ne? (1-100):  "))
         except ValueError:
             print("Lütfen 1 ile 100 arası bir sayı girin!")
 
